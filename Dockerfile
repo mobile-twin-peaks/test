@@ -1,6 +1,7 @@
 #FROM gitpod/workspace-full
 #FROM stemn/development-environment:latest
-FROM yijun/gitpod
+#FROM yijun/gitpod
+FROM alpine:3.8
 # Give control to gitpod
 USER root
 

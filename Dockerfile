@@ -14,4 +14,5 @@ RUN mv $STEMN_HOME $GITPOD_HOME && \
 
 # Remove root user config that gitpod copies over
 RUN rm -rf /root
+RUN mkdir -p /root
 RUN touch /root/dontremove

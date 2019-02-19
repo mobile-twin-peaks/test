@@ -1,1 +1,1 @@
-FROM yijun/gitpod
+FROM yijun/gitpod:fast

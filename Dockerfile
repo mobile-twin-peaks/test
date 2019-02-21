@@ -1,7 +1,4 @@
-FROM gitpod/workspace-full
+FROM yijun/gitpod:fast
 USER root
-RUN apt-get update && apt-get install -y tracefile \
-    && apt-get clean && rm -rf /var/cache/apt/* && rm -rf /var/lib/apt/lists/* && rm -rf /tmp/*
-#RUN strace -e trace=open,close,read,write,connect,accept /usr/bin/gp
-#RUN sleep 10
+RUN apk add go
 USER gitpod

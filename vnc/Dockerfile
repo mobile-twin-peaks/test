@@ -1,4 +1,1 @@
-FROM yijun/gitpod:fast
-USER root
-RUN apk add go
-USER gitpod
+FROM gitpod/workspac-full-vnc

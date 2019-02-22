@@ -1,4 +1,4 @@
 ports:
-  - port: 6080
+  - port: 5900
 image:
   file: vnc/Dockerfile

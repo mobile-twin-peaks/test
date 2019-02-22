@@ -1,4 +1,6 @@
 ports:
-  - port: 5900
+  - port: 6080
 image:
   file: vnc/Dockerfile
+tasks:
+  - command: "yarn && ./scripts/code.sh"
